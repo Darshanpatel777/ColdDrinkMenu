@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryDarkColor">#B14206</color> <!-- Dark Orange -->
+    <color name="accentColor">#D33636</color> <!-- Red -->
+    <color name="backgroundColor">#FAFAFA</color> <!-- Soft White -->
+    <color name="cardBackground">#FFFFFF</color> <!-- Pure White -->
+    <color name="textPrimary">#212121</color> <!-- Dark Gray -->
+    <color name="textSecondary">#716363</color> <!-- Light Gray -->
+    <color name="primaryColor">#EF8234</color> <!-- Chocolate -->
+    <color name="lightBeige">#F0D58F</color>  <!-- Soft Background -->
+    <color name="darkBrown">#664136</color>   <!-- Text Color -->
+    <color name="cardShadow">#B4A48F</color>  <!-- Soft Shadow -->
+
+
+</resources>
