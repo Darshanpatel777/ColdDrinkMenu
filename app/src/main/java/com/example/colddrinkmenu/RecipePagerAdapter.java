@@ -90,51 +90,90 @@ public class RecipePagerAdapter extends PagerAdapter {
 
     private final String[][] colddrinkinstruction = {
             {
-                    "1. Mix fresh orange juice with a hint of lime." + "\n"+
-                    "2. Blend fresh berries with a splash of sparkling water."+ "\n"+
-                    "3. Combine citrus fruits and pineapple juice for a tangy base."
+                    "Blend kiwi puree, pineapple juice, lime juice, and mint with ice. Serve chilled.",  // Kiwi Zing
+                    "Shake grapefruit juice, pomegranate juice, and lemon juice together. Serve over ice.",  // Exotic Punch
+                    "Mix orange juice, lemon juice, lime juice, and mint in a shaker. Pour over ice.",  // Mango Tango
+                    "Blend pineapple juice, coconut milk, and mango puree. Serve in a tall glass.",  // Strawberry Sunrise
+                    "Shake cranberry juice, orange juice, and lemon juice together. Serve cold.",  // Cranberry Zest
+                    "Blend watermelon puree with lemon juice and mint. Pour into a chilled glass.",  // Watermelon Wonder
+                    "Mix lychee juice, lemon juice, and lime juice. Shake well and serve.",  // Lychee Lemon Splash
+                    "Blend dragonfruit puree, pineapple juice, and coconut milk. Serve with ice."
                     // Add more instructions for each drink in this category
             },
             {
-                    "1. Blend frozen raspberries with yogurt and honey."+ "\n"+
-                    "2. Add spinach and kale to a smoothie base with almond milk."+ "\n"+
-                    "3. Mix coconut milk with tropical fruits for a creamy texture."
+                    "Blend mixed berries, banana, yogurt, and almond milk until smooth. Serve chilled.",  // Berry Blast
+                    "Blend avocado, banana, spinach, and almond milk until creamy. Pour into a glass and serve.",  // Avocado Dream
+                    "Mix banana, cocoa powder, yogurt, and almond milk in a blender. Serve cold.",  // Choco Banana Delight
+                    "Blend mango puree, pineapple juice, and coconut milk with ice. Serve fresh.",  // Mango Magic
+                    "Blend kale, spinach, green apple, cucumber, and lemon juice until smooth. Serve as a detox drink.",  // Super Green Detox
+                    "Blend raspberries, yogurt, honey, and almond milk. Serve in a tall glass.",  // Raspberry Yogurt Swirl
+                    "Blend strawberries, banana, and yogurt with almond milk. Pour into a glass and enjoy.",  // Strawberry Banana Rush
+                    "Blend coconut milk, pineapple, mango, and yogurt until smooth. Serve over ice."  // Pineapple Coconut Bliss
                     // Add more instructions for each drink in this category
             },
             {
-                    "1. Shake lime juice and mint leaves for a fresh mojito."+ "\n"+
-                    "2. Combine pomegranate juice with sparkling water for a fizzy treat."+ "\n"+
-                    "3. Add fresh cucumber juice with a touch of basil."
+                    "Blend blue curaçao syrup, lemonade, and ice. Garnish with a slice of lemon.",  // Blue Lagoon
+                    "Mix lime juice, mint leaves, sugar, and soda water. Serve over ice.",  // Virgin Mojito
+                    "Blend cherries, lemon juice, and sugar. Pour over crushed ice and garnish with a cherry.",  // Cherry Bliss
+                    "Mix cucumber juice, lemon juice, mint leaves, and a touch of honey. Serve chilled.",  // Cucumber Breeze
+                    "Shake cranberry juice, lime juice, and soda water together. Serve with ice.",  // Cranberry Fizz
+                    "Blend mango puree, mint leaves, and lime juice with ice. Serve with a fresh mint sprig.",  // Mango Mint Cooler
+                    "Mix lemon juice, basil leaves, and soda water. Serve with a basil garnish.",  // Lemon Basil Cooler
+                    "Blend orange juice, soda water, and a dash of orange blossom water. Serve with orange slices."  // Orange Blossom Fizz
                     // Add more instructions for each drink in this category
             },
             {
-                    "1. Blend coffee with chocolate syrup and milk."+ "\n"+
-                    "2. Add crushed ice, Nutella, and vanilla ice cream for a creamy shake."+ "\n"+
-                    "3. Mix caramel with crushed nuts for a nutty drink."
+                    "Blend espresso, chocolate syrup, milk, and ice. Serve topped with whipped cream and cocoa powder.",  // Midnight Mocha
+                    "Blend vanilla ice cream, milk, and crushed Oreo cookies. Serve with whipped cream and extra cookie crumbles.",  // Oreo Crumble Shake
+                    "Blend cookie dough, vanilla ice cream, and milk. Serve with a few pieces of cookie dough on top.",  // Cookie Dough Shake
+                    "Blend brownie chunks, chocolate syrup, milk, and ice. Serve topped with whipped cream and brownie pieces.",  // Brownie Fudge Shake
+                    "Blend white chocolate, raspberry puree, milk, and ice. Serve with a few raspberries on top.",  // White Chocolate Raspberry
+                    "Blend coconut milk, almond butter, ice, and vanilla ice cream. Serve with a sprinkle of shredded coconut.",  // Coconut Almond Shake
+                    "Blend red velvet cake, cream cheese, milk, and ice. Serve topped with whipped cream and a red velvet cake piece.",  // Red Velvet Shake
+                    "Blend maple syrup, pecans, vanilla ice cream, and milk. Serve with a drizzle of maple syrup and whole pecans."  // Maple Pecan Shake
                     // Add more instructions for each drink in this category
             },
             {
-                    "1. Brew strong coffee and add chilled milk for an iced coffee."+ "\n"+
-                    "2. Combine citrus flavors with cold brew for a refreshing drink."+ "\n"+
-                    "3. Add rose petals to tea for a floral iced beverage."
+                    "Brew coffee, add caramel syrup, and ice. Stir well and serve with whipped cream.",  // Iced Caramel Coffee
+                    "Brew rose tea, add milk and ice, and sweeten with sugar. Serve chilled with a rose petal garnish.",  // Chilled Rose Latte
+                    "Brew tea, add lemon juice, ice, and sweetener. Serve cold with lemon slices.",  // Lemon Iced Tea
+                    "Brew coffee, add chocolate syrup and ice. Top with whipped cream and a drizzle of chocolate.",  // Iced Mocha Bliss
+                    "Brew coffee, add coconut milk and ice. Serve with a sprinkle of toasted coconut flakes.",  // Coconut Iced Latte
+                    "Brew green tea, add honey, lemon juice, and ice. Serve chilled with lemon slices.",  // Honey Lemon Iced Green Tea
+                    "Brew strong tea, add sweetened condensed milk and ice. Serve with a sprinkle of cinnamon.",  // Thai Iced Tea
+                    "Blend watermelon juice, lemon juice, and mint leaves with ice. Serve in a chilled glass."  // Watermelon Cooler
                     // Add more instructions for each drink in this category
             },
             {
-                    "1. Mix cucumber, mint, and lemon for a refreshing detox drink."+ "\n"+
-                    "2. Blend aloe vera with lime juice and mint for a hydrating refresher."+ "\n"+
-                    "3. Combine chia seeds with green tea for a healthy drink."
+                    "Blend aloe vera gel, lemon juice, honey, and water with ice. Serve chilled.",  // Aloe Vera Cooler
+                    "Blend kale, cucumber, lemon, and mint with ice. Serve in a tall glass with a slice of lime.",  // Green Detox Splash
+                    "Mix honey, lemon juice, mint leaves, and warm water. Serve chilled with ice.",  // Minty Honey Lemon
+                    "Blend ginger, lemon juice, honey, and cayenne pepper with ice. Serve cold and garnish with mint.",  // Ginger Zest Detox
+                    "Blend cucumber, aloe vera gel, lemon juice, and mint with ice. Serve chilled.",  // Cucumber Aloe Refresher
+                    "Blend basil leaves, lime juice, honey, and cucumber with ice. Serve in a chilled glass.",  // Basil Lime Detox
+                    "Mix turmeric powder, lemon juice, honey, and coconut water. Stir and serve over ice.",  // Turmeric Glow Drink
+                    "Blend mint leaves, green tea, lemon juice, and honey. Serve cold with a fresh mint sprig."  // Herbal Mint Refresher
                     // Add more instructions for each drink in this category
             },
             {
-                    "1. Blend banana with peanut butter and protein powder for an energy boost."+ "\n"+
-                    "2. Add cocoa and almond butter to create a chocolate protein shake."+ "\n"+
-                    "3. Mix spinach with almond milk for a green power smoothie."
+                    "Blend banana, peanut butter, protein powder, almond milk, and ice. Serve chilled.",  // Banana Peanut Protein Shake
+                    "Blend chocolate protein powder, almond milk, cocoa powder, and ice. Serve cold with a sprinkle of chocolate.",  // Chocolate Protein Power
+                    "Blend mixed berries, oats, yogurt, and almond milk. Serve in a glass with a few extra berries on top.",  // Berry Oat Smoothie
+                    "Blend spinach, green apple, protein powder, and almond milk. Serve chilled with a slice of apple.",  // Green Power Smoothie
+                    "Blend strawberries, protein powder, almond milk, and ice. Serve with a strawberry garnish.",  // Strawberry Protein Punch
+                    "Blend spinach, apple, banana, protein powder, and almond milk. Serve with a mint leaf on top.",  // Spinach Apple Protein Shake
+                    "Blend walnuts, dates, protein powder, almond milk, and ice. Serve with crushed walnuts on top.",  // Walnut Date Energy Shake
+                    "Blend hazelnuts, cocoa powder, protein powder, almond milk, and ice. Serve with a sprinkle of cocoa powder."  // Hazelnut Cocoa Protein Smoothie
                     // Add more instructions for each drink in this category
             },
-            {
-                    "1. Brew saffron with rose milk for a fragrant drink."+ "\n"+
-                    "2. Mix tamarind with spices for a tangy punch."+ "\n"+
-                    "3. Blend fig with honey for a sweet, refreshing drink."
+            { "Mix yuzu juice, lemon juice, and sparkling water with ice. Serve chilled with a lemon slice.",  // Japanese Yuzu Cooler
+                    "Blend tamarind pulp, lime juice, chili powder, and ice. Serve with a sprinkle of chili salt.",  // Tamarind Spice Cooler
+                    "Infuse lychee juice with rose water, lime juice, and ice. Serve with a rose petal garnish.",  // Lychee Rose Infusion
+                    "Blend guava juice, lime juice, mint, and ice. Serve with a lime slice.",  // Guava Lime Refresher
+                    "Blend pineapple juice, basil leaves, and ice. Serve in a glass with a basil sprig on top.",  // Pineapple Basil Cooler
+                    "Blend figs, honey, lemon juice, and ice. Serve chilled with a few slices of fig on top.",  // Fig Honey Cooler
+                    "Blend coconut milk, basil leaves, lime juice, and ice. Serve with a fresh basil leaf.",  // Basil Coconut Crush
+                    "Mix passion fruit juice, mint, lime juice, and soda water with ice. Serve with a mint garnish."
                     // Add more instructions for each drink in this category
             }
     };
