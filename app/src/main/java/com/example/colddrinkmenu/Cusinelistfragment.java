@@ -20,7 +20,7 @@ import android.widget.TextView;
 
 public class Cusinelistfragment extends Fragment {
 
-
+// hello
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
